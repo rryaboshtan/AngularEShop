@@ -7,6 +7,9 @@ import { AddProductComponent } from './add-product/add-product.component';
 import { ViewProductByCategoryComponent } from './view-product-by-category/view-product-by-category.component';
 import { ViewProductComponent } from './view-product/view-product.component';
 import { UpdateProductComponent } from './update-product/update-product.component';
+import { DeleteProductComponent } from './delete-product/delete-product.component';
+import { ViewAllProductComponent } from './view-all-product/view-all-product.component';
+import { ViewProductByDateComponent } from './view-product-by-date/view-product-by-date.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +17,10 @@ import { UpdateProductComponent } from './update-product/update-product.componen
     AddProductComponent,
     ViewProductByCategoryComponent,
     ViewProductComponent,
-    UpdateProductComponent
+    UpdateProductComponent,
+    DeleteProductComponent,
+    ViewAllProductComponent,
+    ViewProductByDateComponent
   ],
   imports: [
     CommonModule,
