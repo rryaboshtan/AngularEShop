@@ -1,6 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
+import { Category } from './category';
 import { Product } from './product';
 
 @Injectable({
@@ -37,5 +38,10 @@ export class ProductService {
   searchProductByDate(dateParam: any): Observable<Product> {
     const baseUrl = 'http://localhost:3000/product/date=' + dateParam;
     return this.httpClient.get<Product>(baseUrl);
+  }
+
+  getCategory(): Observable<Category> {
+    const categoryUrl = 'http://localhost:3000/categories';
+    return this.httpClient.get<Category>(categoryUrl);
   }
 }
