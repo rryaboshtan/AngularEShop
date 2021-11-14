@@ -1,5 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
+import { Product } from './product';
 
 @Injectable({
   providedIn: 'root',
@@ -12,17 +13,17 @@ export class ProductService {
     return this.httpClient.post(baseUrl, productBody);
   }
 
-  viewProduct(productId: number) {
+  viewProduct(productId: string) {
     const baseUrl = 'http://localhost:3000/product/' + productId;
     return this.httpClient.get(baseUrl);
   }
 
-  updateProduct(productId: number, productBody: any) {
+  updateProduct(productId: string, productBody: any) {
     const baseUrl = 'http://localhost:3000/product/' + productId;
     return this.httpClient.put(baseUrl, productBody);
   }
 
-  deleteProduct(productId: number) {
+  deleteProduct(productId: string) {
     const baseUrl = 'http://localhost:3000/product/' + productId;
     return this.httpClient.delete(baseUrl);
   }
