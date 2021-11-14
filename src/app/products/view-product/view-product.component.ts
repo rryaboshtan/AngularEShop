@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-view-product',
@@ -6,10 +7,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./view-product.component.scss']
 })
 export class ViewProductComponent implements OnInit {
-
-  constructor() { }
+  productId = 0;
+  constructor(private activatedRoute: ActivatedRoute) { }
 
   ngOnInit(): void {
+    this.activatedRoute.params.subscribe(params => {
+      this.productId = params.id;
+    })
   }
 
 }
