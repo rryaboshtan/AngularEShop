@@ -1,42 +1,49 @@
 {
   "product": [
-      {
-        "id": 1,
-        "name": "shirt",
-        "category_id": 5,
-        "description": "description here",
-        "price": 300,
-        "is_available": true,
-        "rating": 4,
-        "review": 150,
-        "vendor_name": "abc shop",
-        "waranty": 1
-      },
-      {
-        "id": 2,
-        "name": "shirt2",
-        "category_id": 1,
-        "description": "description here",
-        "price": 200,
-        "is_available": true,
-        "rating": 3,
-        "review": 120,
-        "vendor_name": "ayc shop",
-        "waranty": 1
-      },
-      {
-        "id": 3,
-        "name": "shirt3",
-        "category_id": 4,
-        "description": "description here",
-        "price": 500,
-        "is_available": true,
-        "rating": 1,
-        "review": 100,
-        "vendor_name": "agg shop",
-        "waranty": 1
-      }
-    ],
+    {
+      "id": 1,
+      "name": "shirt",
+      "category_id": 5,
+      "description": "description here",
+      "price": 300,
+      "is_available": true,
+      "rating": 4,
+      "review": 150,
+      "vendor_name": "abc shop",
+      "waranty": 1
+    },
+    {
+      "id": 2,
+      "name": "shirt2",
+      "category_id": 1,
+      "description": "description here",
+      "price": 200,
+      "is_available": true,
+      "rating": 3,
+      "review": 120,
+      "vendor_name": "ayc shop",
+      "waranty": 1
+    },
+    {
+      "id": 3,
+      "name": "shirt3",
+      "category_id": 4,
+      "description": "description here",
+      "price": 500,
+      "is_available": true,
+      "rating": 1,
+      "review": 100,
+      "vendor_name": "agg shop",
+      "waranty": 1
+    }
+  ],
+  "categories": [
+    { "id": 1, "categoryName": "Electronics"},
+    { "id": 2, "categoryName": "Men"},
+    { "id": 3, "categoryName": "Women"},
+    { "id": 4, "categoryName": "Home & Furniture"},
+    { "id": 5, "categoryName": "Baby & Kids"}
+  ],
   "comments": [
     { "id": 1, "body": "some comment", "postId": 1 },
     { "id": 2, "body": "some comment", "postId": 1 }
