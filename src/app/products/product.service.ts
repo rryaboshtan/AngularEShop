@@ -15,8 +15,8 @@ export class ProductService {
     return this.httpClient.post<Product>(baseUrl, productBody);
   }
 
-  viewProduct(productId: string): Observable<Product> {
-    const baseUrl = 'http://localhost:3000/product/' + productId;
+  viewProduct(): Observable<Product> {
+    const baseUrl = 'http://localhost:3000/product/';
     return this.httpClient.get<Product>(baseUrl);
   }
 

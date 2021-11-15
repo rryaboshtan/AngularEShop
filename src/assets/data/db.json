@@ -2,7 +2,7 @@
   "product": [
     {
       "id": 1,
-      "name": "Party waer Shit",
+      "productName": "Party waer Shit",
       "category_id": 5,
       "description": "description first for shirt",
       "price": 300,
@@ -15,7 +15,7 @@
     },
     {
       "id": 2,
-      "name": "Casual Shit",
+      "productName": "Casual Shit",
       "category_id": 1,
       "description": "description second",
       "price": 200,
@@ -28,7 +28,7 @@
     },
     {
       "id": 3,
-      "name": "Formal Shit",
+      "productName": "Formal Shit",
       "category_id": 4,
       "description": "description here",
       "price": 500,
@@ -41,7 +41,7 @@
     },
     {
       "id": 4,
-      "name": "Formal Shit",
+      "productName": "Formal Shit",
       "category_id": 4,
       "description": "description here",
       "price": 500,
@@ -54,7 +54,7 @@
     },
     {
       "id": 5,
-      "name": "Lahenda for Wedding",
+      "productName": "Lahenda for Wedding",
       "category_id": 4,
       "description": "description here",
       "price": 500,
